@@ -8,12 +8,11 @@ int main(void)
 {
 	char alpha;
 
-	for (alpha = 48 ; alpha <= 57 ; alpha++)
-		putchar ("%x", alpha);
+	for (alpha = 'a' ; alpha <= 'z' ; alpha++)
+		putchar (alpha);
 
-	for alpha = 'a' ; alpha <= 'z' ; alpha++)
-		putchar ("%x", alpha)
-
+	for (alpha = '0' ; alpha <= '9' ; alpha++)
+		putchar (alpha);
 	putchar ('\n');
 
 
