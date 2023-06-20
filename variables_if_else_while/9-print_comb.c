@@ -23,3 +23,5 @@ int main(void)
 	putchar ('\n');
 	return (0);
 }
+
+// if also could be if (j < 57)
