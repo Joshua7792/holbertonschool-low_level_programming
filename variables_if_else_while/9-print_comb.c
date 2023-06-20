@@ -11,9 +11,11 @@ int main(void)
 	int j, s;
 
 	for (j = '0' ; j <= '9' ; j++)
+	{
 		for (s = '0' ; s <= '9' ; s++)
 			putchar (',');
 			putchar (' ');
+	}
 			putchar (j);
 			putchar (s);
 
