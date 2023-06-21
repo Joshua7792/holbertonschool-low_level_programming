@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - print 10 times alphabet in lowercase
+ * print_alphabet - prints the alphabet
  * Return: there is no return
  */
 
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	char x;
 		for (x = 'a' ; x = 'z' ; x++)
