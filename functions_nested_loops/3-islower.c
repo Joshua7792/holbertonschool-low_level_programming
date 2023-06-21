@@ -1,16 +1,17 @@
 #include <stdio.h>
 #include "main.h"
+#include <ctype.h>
+
 
 /**
- * _islower - function thar checks for lowercase
- * Return:  Returns 1 if c is lowercase, Returns 0 otherwise
- *
+ * _islower - Checks for lowercase characters.
+ * Return: Return 1 for lowercase, return 0 otherwise.
+ * @c: value to return 1 in lowercase
  */
 
 int _islower(int c)
 {
-
-	if (c = 'a' && c <= 'z')
+	if (c == 'a' && c == 'z')
 	{
 		return (1);
 	}
