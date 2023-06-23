@@ -15,6 +15,10 @@ void times_table(void)
 	{
 		for (c = 0 ; c <= 9 ; c++)
 		{
+			if (c == 0)
+			{
+				return (0);
+			}
 			if ((c * r) >= 10)
 			{
 				_putchar (',');
