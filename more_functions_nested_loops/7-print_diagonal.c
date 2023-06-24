@@ -5,25 +5,30 @@
  * print_diagonal - draws a diagonal line.
  * @n: the parameter
  */
-
 void print_diagonal(int n)
 {
-	int line;
-	int spaces;
-
 	if (n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
+	{
+		int a, b;
 
-		for (int line = 0; line < n; line++)
+		for (a = 0; a < n; a++)
 		{
-			for (int spaces = 0; spaces < line; spaces++)
+			for (b = 0; b < n; b++)
 			{
-				_putchar(' ');
+				if (b == a)
+				{
+					_putchar('\\');
+				}
+				else if (b < a)
+				{
+					_putchar(' ');
+				}
 			}
-			_putchar('\\');
-			_putchar('\n');
+		_putchar('\n');
 		}
+	}
 }
