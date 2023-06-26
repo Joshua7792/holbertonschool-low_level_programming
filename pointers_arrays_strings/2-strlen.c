@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * int_strlen(char *s);
+ * _strlen - length of a string
+ * @s: parameter
  * Return: return
  */
 
