@@ -1,12 +1,18 @@
 #include <stdio.h>
+#include "main.h"
 
-void rev_string(char *s) {
+/**
+ * rev_string - reverse string
+ * @s: pointer
+ */
+
+void rev_string(char *s)
+{
 	int length = 0;
 	int beg;
 	int end;
 	char tmp;
 
-	
 	for (; s[length] != '\0'; length++)
 	;
 
