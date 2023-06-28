@@ -9,10 +9,10 @@
 void puts2(char *str)
 {
 
-int leng, even;
-leng = 0;
+	int leng, even;
+	leng = 0;
 
-	for (; str[leng] != '\0' ; leng++)
+	for (; str[leng] != ('\0') ; leng++)
 		;
 
 
@@ -22,7 +22,7 @@ leng = 0;
 		{
 			_putchar(str[even]);
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
 
