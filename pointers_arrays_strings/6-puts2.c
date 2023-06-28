@@ -10,6 +10,7 @@ void puts2(char *str)
 {
 
 	int leng, even;
+
 	leng = 0;
 
 	for (; str[leng] != ('\0') ; leng++)
