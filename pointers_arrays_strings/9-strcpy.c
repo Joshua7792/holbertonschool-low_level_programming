@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * *_strcpy - copy
- * @dest: destination
- * @src: elements
- *
+ **_strcpy - copy
+ *@dest: destination
+ *@src: elements
+ *Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
@@ -16,9 +16,7 @@ char *_strcpy(char *dest, char *src)
 	{
 		dest[c] = src[c];
 	}
-
 	dest[c] = '\0';
 
 	return (dest);
-
 }
