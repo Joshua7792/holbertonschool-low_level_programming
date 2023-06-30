@@ -2,7 +2,7 @@
 
 /**
  *string_toupper - changing lowercase to uppercase
- *@t: pointer to the string
+ *@str: pointer to the string
  *Return: t var
  */
 
