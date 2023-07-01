@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _memset - fills memory with a constant byte
- *@b: bytes
- *@s: pointer
+ * _memcpy - fills memory with a constant byte
+ *@dest: bytes
+ *@src: pointer
  *@n: -numbers of bytes to be filled
  *Return: return the value if the memste
  */
