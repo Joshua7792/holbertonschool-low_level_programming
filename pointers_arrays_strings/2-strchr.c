@@ -6,12 +6,18 @@
  * @s: specifies the pointer to the null termianted string
  * Return: the value of string if truth otherwise 0
  */
+
 char *_strchr(char *s, char c)
 {
-	do {
-		if (*s == c)
-			return (s);
-	} while (*s++);
+	char *ptr = s;
 
-	return (0);
+	for (; *ptr != '\0'; ptr++) {
+		if (*ptr == c) {
+			return ptr;
+		}
+
+	}
+
+	return NULL;
 }
+
