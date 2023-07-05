@@ -1,6 +1,6 @@
 <h4 align="center">
 <div class=HeaderSticker>
-<img src= "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXkzYnQ4bXY3bXJiYzdvMGs4Z2dqNGpodndjZWczOGd1NjJxdTNnbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" />
+<img src= "https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif"/>
 </div>
 <h1 align="center"> ARGC & ARGV </h1>
 </h4>
