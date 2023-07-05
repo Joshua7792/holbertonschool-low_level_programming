@@ -8,14 +8,9 @@
  * @argv: the argument of the array
  * Return: return 0
  */
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
-	int i;
-
-	for (i = 0; argv[0][i] != '\0'; i++)
-		;
-
-	printf("%d\n", argc);
+	printf("%d\n", argc - 1);
 	return (0);
 }
 
