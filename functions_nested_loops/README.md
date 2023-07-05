@@ -10,7 +10,7 @@ All files are compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall
 
 ## Description
 
-:red_ball: Mandatory Task :red_ball:
+ Mandatory Task
 
 | File                   | Description                                                                                       |
 |------------------------|---------------------------------------------------------------------------------------------------|
