@@ -1,6 +1,6 @@
 <h4 align="center">
 <div class=HeaderSticker>
-<img src="https://cdn.iconscout.com/icon/free/png-512/computer-132672.png"/>
+<img src=<iframe src="https://giphy.com/embed/ZVik7pBtu9dNS" width="480" height="268" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/life-interesting-footage-ZVik7pBtu9dNS">via GIPHY</a></p>
 </div>
 <h1 align="center"> ARGC & ARGV </h1>
 </h4>
