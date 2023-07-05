@@ -10,7 +10,7 @@ All files are compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall
 
 ## Description
 
- Mandatory Task
+ :exclamation: Mandatory Task :exclamation:
 
 | File                   | Description                                                                                       |
 |------------------------|---------------------------------------------------------------------------------------------------|
