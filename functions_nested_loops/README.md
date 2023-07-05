@@ -1,6 +1,6 @@
 <h4 align="center">
 <div class=HeaderSticker>
-<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif "/>
+<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif"/>
 </div>
 <h1 align="center"> Functions nested loops </h1>
 </h4>
@@ -10,7 +10,7 @@ All files are compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall
 
 ## Description
 
-:purple_heart: Mandatory Task :purple_heart:
+:red_ball: Mandatory Task :red_ball:
 
 | File                   | Description                                                                                       |
 |------------------------|---------------------------------------------------------------------------------------------------|
