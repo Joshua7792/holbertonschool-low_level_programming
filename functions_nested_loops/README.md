@@ -1,6 +1,6 @@
 <h4 align="center">
 <div class=HeaderSticker>
-<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif”/>
+<img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif "/>
 </div>
 <h1 align="center"> Functions nested loops </h1>
 </h4>
@@ -10,7 +10,7 @@ All files are compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall
 
 ## Description
 
-:red_ball: Mandatory Task :red_ball:
+:purple_heart: Mandatory Task :purple_heart:
 
 | File                   | Description                                                                                       |
 |------------------------|---------------------------------------------------------------------------------------------------|
@@ -26,5 +26,3 @@ All files are compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall
 | 9-times_table.c        | Write a function that prints the 9 times table, starting with 0.                                  |
 | 10-add.c               | Write a function that adds two integers and returns the result.|
 | 11-print_to_98.c       | Write a function that prints all natural numbers from n to 98, followed by a new line.
-
-
