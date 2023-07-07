@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	for (i = 1; i < argc; i++)
 	{
 		a += atoi(argv[i]);
-		printf(" a = %d\n", a);
+
 		if (a == 199)
 		{
 			printf("Error\n");
