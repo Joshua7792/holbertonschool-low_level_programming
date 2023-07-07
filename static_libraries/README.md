@@ -10,7 +10,7 @@ All C files were compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-W
 
 ## Description
 
-:bouquet: Mandatory Task :bouquet:
+:zap: Mandatory Task :zap:
 
 | File                 | Description                                                                                                                                        |
 |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
