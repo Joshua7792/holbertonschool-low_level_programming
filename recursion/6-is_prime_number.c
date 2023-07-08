@@ -1,34 +1,30 @@
 #include "main.h"
+
 /**
- *is_prime_number - returning a prime number if it
- *@n: number to be evaluated by function
- *Return: 1 if prime, 0 if not
+ * checker - function name
+ * @n: var
+ * @a: var
+ * Return: int value
  */
+
+int checker(int n, int a)
+{
+	if (a % n == 0 || a < 2)
+		return (0);
+	else if (n == a - 1)
+		return (1);
+	else if (a > n)
+		return (checker(n + 1, a));
+	return (1);
+}
+
+/**
+ * is_prime_number - function name
+ * @n: int var
+ * Return: int value
+ */
+
 int is_prime_number(int n)
 {
-	int find = 2;
-
-	if (n <= 2)
-	{
-		return ((n == 2) ? 1 : 0);
-	}
-	return (looking_for_prime(n, find + 1));
-}
-/**
- *looking_for_prime - finding the prime number
- *@find: value that will calculate prime
- *@n: number to be evaluated
- *Return: recursive result
- */
-int looking_for_prime(int n, int find)
-{
-	if (n % find == 0)
-	{
-		return (0);
-	}
-	else if (find * find > n)
-	{
-		return (1);
-	}
-	return (looking_for_prime(n, find + 1));
+	return (checker(2, n));
 }
