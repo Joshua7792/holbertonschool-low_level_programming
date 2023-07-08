@@ -1,27 +1,30 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
- *print_array - print the array
- *@a: parameter
- *@n: parameter
+ * print_diagsums - function name
+ * @a: pointer
+ * @size: int var
  */
 
-void print_array(int *a, int n)
+void print_diagsums(int *a, int size)
 {
-	int b;
+	int x = 0;
+	int y = size - 1;
+	int sum1 = 0;
+	int sum2 = 0;
 
-	for (b = 0 ; b < n ; b++)
+	while (x <= (size * size))
 	{
-		if (b == (n - 1))
-		{
-			printf("%d", a[b]);
-		}
-		else
-		{
-			printf("%d, ", a[b]);
-		}
+		sum1 = sum1 + a[x];
+		x = x + size + 1;
 	}
-	printf("\n");
 
+	while (y < (size * size - 1))
+	{
+		sum2 += a[y];
+		y = y + size - 1;
+	}
+
+	printf("%d, %d\n", sum1, sum2);
 }
