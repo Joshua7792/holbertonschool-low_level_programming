@@ -17,7 +17,7 @@ This repository contains various projects related to low-level programming. The 
 
 3. Function, nested loops = Code examples demonstrating how to use variables and conditional statement in C programming.
 
-4. Makefiles = sets a set of rules to determine which part of the program need to be recompile, and issues command to recompile them. Makefiles is a way of automating software building procedure and other complex task with dependencies. ji 
+4. Makefiles = sets a set of rules to determine which part of the program need to be recompile, and issues command to recompile them. Makefiles is a way of automating software building procedure and other complex task with dependencies. 
 
 5. Pointers, Arrays & Strings = Code examples demonstrating how to use pointers, arrays, and strings in C programming. 
 
