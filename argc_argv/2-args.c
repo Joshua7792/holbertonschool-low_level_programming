@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - Write a program that pritns its name,
+ * main - Write a program that prints its name,
  * followed by a new line.
  * @argc: Counts arguments
  * @argv: the argument of the array
