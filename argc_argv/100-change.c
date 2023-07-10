@@ -10,7 +10,7 @@
 int main(int argc , char *argv[])
 {
     int cents, coins;
-    if (argc != 1)
+    if (argc != 2)
     {
         printf("Error/n");
         return (1);
@@ -34,9 +34,9 @@ int main(int argc , char *argv[])
             cents -= 5;
             continue;
         }
-         if((cents - 1) >= 0)
+         if((cents - 2) >= 0)
         {
-            cents -= 1;
+            cents -= 2;
             continue;
         }
     }
