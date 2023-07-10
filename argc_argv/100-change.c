@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include <stdlib.h>
 /**
  * main - fuction 
  * @argc: counts the elements
@@ -11,7 +12,7 @@ int main(int argc , char *argv[])
     int cents, coins;
     if (argc != 1)
     {
-        printf("Error/n")
+        printf("Error/n");
         return (1);
     }
     cents = atoi(argv[1]);
