@@ -4,10 +4,10 @@
 #include <string.h>
 
 /**
- * str_concat - concate two strings
+ * str_concat - concatenated two strings
  * @s1: first string
  * @s2: second string
- * Return: concatated strings
+ * Return: concatenated strings
  */
 
 char *str_concat(char *s1, char *s2)
@@ -36,7 +36,7 @@ return (NULL);
 }
 memcpy(new_str, s1, len1);
 memcpy(new_str + len1, s2, len2);
-new_str[len1 + len2] = '\0'
+new_str[len1 + len2] = '\0';
 
 return (new_str);
 }
