@@ -37,20 +37,22 @@ int **alloc_grid(int width, int height)
     {
       /* Free the memory that was already allocated */
       for (j = 0; j < i; j++)
-      { 
-      return NULL;
+      {
+        free(table[j]);
       }
+      free(table);
+      return (NULL);
     }
   }
 
-  /* Initialize each element of the table to 0 */
-  for (i = 0; i < height; i++)
+/* Initialize each element of the table to 0 */
+for (i = 0; i < height; i++)
+{
+  for (j = 0; j < width; j++)
   {
-    for (j = 0; j < width; j++)
-    {
-      table[i][j] = 0;
-    }
+    table[i][j] = 0;
   }
+}
 
-  return table;
+return (table);
 }
