@@ -29,7 +29,7 @@ int **alloc_grid(int width, int height)
 	/* Allocate memory for each row in the array */
 	for (i = 0; i < height; i++)
 	{
-		table[i] = malloc(sizeof(int) * width);
+		table[i] = malloc(sizeof(int *) * width);
 		if (table[i] == NULL)
 		{
 			/* Free the memory that was already allocated */
