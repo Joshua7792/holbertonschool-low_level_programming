@@ -44,5 +44,8 @@ return (NULL);
 memcpy(new_str, s1, len1);
 memcpy(new_str + len1, s2, len2);
 
+/* Add a null terminator to the end of the new string */
+new_str[len1 + len2] = '\0';
+
 return (new_str);
 }
