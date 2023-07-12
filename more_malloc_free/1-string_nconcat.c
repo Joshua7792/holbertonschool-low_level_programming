@@ -28,7 +28,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	/* Calculate the length of the first and second string */
 	len1 = strlen(s1);
 	len2 = strlen(s2);
-	if (n >= len2)
+	/* Check if n is greater than the length of s2 */
+	if (n > len2)
 	{
 		n = len2;
 	}
