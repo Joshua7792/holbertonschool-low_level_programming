@@ -33,7 +33,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		n = len2;
 	}
 	/* Allocate a memory block for the concatenated string */
-	new_str = malloc(len1 + len2 + 1);
+	new_str = malloc(len1 + n + 1);
 	/*Check if the memory allocation was successful. If it wasn't, return NULL*/
 	if (new_str == NULL)
 	{
@@ -41,6 +41,6 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	/* Copy the contents of the first and second string to the new memory block */
 	memcpy(new_str, s1, len1);
-	memcpy(new_str + len1, s2, len2);
+	memcpy(new_str + len1, s2, n);
 	return (new_str);
 }
