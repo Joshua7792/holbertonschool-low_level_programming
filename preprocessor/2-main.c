@@ -2,10 +2,10 @@
 
 /**
  * main - prints it own name
- * Return: 0 
+ * Return: 0
  */
 
-int main()
+int main(void)
 {
 	char *filename = __FILE__;
 
