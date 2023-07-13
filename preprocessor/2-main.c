@@ -3,12 +3,12 @@
 /**
  * main - prints it own name
  * Return: 0 
-*/
+ */
 
 int main()
 {
-  char *filename = __FILE__;
+	char *filename = __FILE__;
 
-  printf("%s\n", filename);
-  return (0);
+	printf("%s\n", filename);
+	return (0);
 }
