@@ -10,7 +10,7 @@ All files were compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wal
 
 ## Description
 
-Mandatory Task
+:boom: Mandatory Task :boom:
 
 | File             | Description                                                                                                                             |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
@@ -21,5 +21,8 @@ Mandatory Task
 | 4-free_grid.c    | Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.                                        |
 
 :boom: Advance Task :boom:
+
+| File             | Description                                                                                                                             |
+|------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | 100-argstostr.c  | Write a function that concatenates all the arguments of your program.                                                                   |
 | 101-strtow.c     |         Write a function that splits a string into words.                                                                               |
