@@ -10,7 +10,7 @@ All files were compiled on Ubutun 20.04 LTS using `gcc`, using the options `-Wal
 
 ## Description
 
-:cactus: Mandatory Task :cactus:
+:dager: Mandatory Task :dager:
 
 | File                    | Description                                                                                        |
 |-------------------------|----------------------------------------------------------------------------------------------------|
