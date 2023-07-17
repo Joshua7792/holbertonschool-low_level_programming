@@ -10,7 +10,7 @@ All files were compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wal
 
 ## Description
 
-:mapple_leaf: Mandatory Task :mapple_leaf:
+:maple_leaf: Mandatory Task :maple_leaf:
  
  | File          | Description                                                    |
 |---------------|----------------------------------------------------------------|
