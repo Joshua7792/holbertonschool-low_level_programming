@@ -39,9 +39,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	memcpy(p, name, leng1);
+	memcpy(p, p->name, leng1);
 	p->age = age;
-	memcpy(p, owner, leng2);
+	memcpy(p, p->owner, leng2);
 
 	return (p);
 }
