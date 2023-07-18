@@ -10,7 +10,7 @@ All files were compiled on Ubuntu 20.04 LTS using, `gcc`, using the option `-Wal
 
 ## Description
 
-:sunflower: Mandatory Task :sunflower:
+:thunder: Mandatory Task :thunder:
 
 | File                                                  | Description                                                                                 |
 |-------------------------------------------------------|---------------------------------------------------------------------------------------------|
