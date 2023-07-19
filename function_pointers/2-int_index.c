@@ -12,25 +12,19 @@
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i;
-	/*Check if the array and comparison function are NULL. */
-	if (array == NULL && cmp == NULL)
-	{
-		return (-1);
-	}
-	/*Check if the size is less than or equal to 0. If it is, return -1.*/
+	int n;
+	/*check size*/
 	if (size <= 0)
-	{
 		return (-1);
-	}
-	/* If the comparison function is not a 0, return the index of the element.*/
-	for (i = 0; i < size; i++)
+	/*Verify pointer content*/
+	if (array != NULL && cmp != NULL)
 	{
-		if (cmp(array[i]) != 0)
+		/*Verify array content*/
+		for (n = 0; n < size; n++)
 		{
-			return (i);
+			if (cmp(array[n]) != 0)
+				return (n);
 		}
 	}
-	/* If no match was found, return -1.*/
 	return (-1);
 }
