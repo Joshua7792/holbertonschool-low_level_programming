@@ -13,6 +13,10 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
+	int (*p)(int);
+
+	p = cmp;
+
 	/*Check if the array and comparison function are NULL. */
 	if (array == NULL && cmp == NULL)
 	{
@@ -26,7 +30,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 	/* If the comparison function is not a 0, return the index of the element.*/
 	for (i = 0; i < size; i++)
 	{
-		if (cmp(array[i]) != 0)
+		if ((*p)(array[i]) != 0)
 		{
 			return (i);
 		}
