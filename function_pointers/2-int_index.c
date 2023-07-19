@@ -14,7 +14,7 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 	/*Check if the array and comparison function are NULL. */
-	if (array == NULL && cmp == NULL)
+	if (array != NULL && cmp != NULL)
 	{
 		return (-1);
 	}
