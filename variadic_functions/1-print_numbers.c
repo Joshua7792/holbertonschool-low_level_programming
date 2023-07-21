@@ -15,10 +15,12 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	va_start(numbers, n);
 
+	/* Loop through the list of integers and print each element */
 	for (i = 0; i < n; i++)
 	{
 		printf("%d", va_arg(numbers, int));
 
+		/* Print separator if it is not NULL and not the last element. */
 		if (separator != NULL && i != (n - 1))
 		{
 			printf("%s", separator);
@@ -26,5 +28,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	}
 	va_end(numbers);
 
-	printf("\n");
+	printf("\n"); /* Print a new line at the end. */
 }
