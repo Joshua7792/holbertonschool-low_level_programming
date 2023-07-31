@@ -1,6 +1,6 @@
 <h4 align="center">
 <div class=HeaderSticker>
-<img src="https://giphy.com/clips/storyful-film-britt-robertson-brad-bird-G3lvdJ2Ur0adsiaElA"/>
+<img src="https://media.giphy.com/media/kdW62sAzDcCrClj4wr/giphy.gif"/>
 </div>
 <h1 align="center"> Singly Linked Lists </h1>
 </h4>
