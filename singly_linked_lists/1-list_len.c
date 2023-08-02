@@ -8,19 +8,19 @@
 
 size_t list_len(const list_t *h)
 {
-    /* Initialize a count variable to keep track of the number of elements */
-    int count = 0;
+	/* Initialize a count variable to keep track of the number of elements */
+	int count = 0;
 
-    /* Traverse the list while there are still nodes to process */
-    while (h != NULL)
-    {
-        /* Increment the count for each node encountered */
-        count++;
+	/* Traverse the list while there are still nodes to process */
+	while (h != NULL)
+	{
+		/* Increment the count for each node encountered */
+		count++;
 
-        /* Move to the next node in the list */
-        h = h->next;
-    }
+		/* Move to the next node in the list */
+		h = h->next;
+	}
 
-    /* Return the final count, which represents the number of elements in the list */
-    return (count);
+	/* Return the final count, which represents the number of elements in the list */
+	return (count);
 }
