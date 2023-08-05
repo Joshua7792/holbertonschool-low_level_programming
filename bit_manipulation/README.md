@@ -1,6 +1,6 @@
 <h4 align="center">
 <div class=HeaderSticker>
-<img src="https://media.giphy.com/media/4527NkUK98k5w4MOBY/giphy.gif"/>
+<img src="https://media.giphy.com/media/vC4ONoCZb60ZLMMNBP/giphy.gif"/>
 </div>
 <h1 class="center"> Bit Manipulation </h1>
 </h4>
@@ -9,8 +9,7 @@
 All files were compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
 
 ## Description
-
-:zap: Mandatory Task :zap:
+Mandatory Task
 
 | File               | Description                                                                                                |
 |--------------------|------------------------------------------------------------------------------------------------------------|
