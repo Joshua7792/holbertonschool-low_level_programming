@@ -22,7 +22,7 @@ int main(void)
 			else
 				printf("Buzz");
 		else
-		printf("%d ", a);
+			printf("%d ", a);
 	}
 	printf("\n");
 	return (0);
