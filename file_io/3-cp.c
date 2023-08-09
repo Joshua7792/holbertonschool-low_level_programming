@@ -58,7 +58,7 @@ void argc_fail(void)
 }
 
 /**
- * error_and_exit - function to help with errors
+ * error_check - function to help with errors
  * @message: message to add
  * @filename: filename
  * @exit_code: exit code of the error
