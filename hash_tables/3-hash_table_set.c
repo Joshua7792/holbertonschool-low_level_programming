@@ -26,6 +26,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	{
 		if (strcmp(node->key, key) == 0)
 		{
+			/* Update the value and return success */
 			free(node->value);
 			node->value = strdup(value);
 			return (1);
@@ -38,6 +39,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (node == NULL)
 		return (0);
 
+	/* Set key, value, and update linked list */
 	node->key = strdup(key);
 	node->value = strdup(value);
 	node->next = ht->array[index];
